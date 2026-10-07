@@ -13,3 +13,27 @@
 .scholar-source a{color:var(--muted)}
 .publication-type{padding:1px 6px;border:1px solid var(--line);border-radius:3px;font-size:10px;white-space:nowrap}
 @media(max-width:650px){.scholar-metrics{gap:18px}.scholar-summary{margin-top:24px}.scholar-source{font-size:10px}}
+
+/* CV-derived research context and projects. */
+.intro-background{font-size:12px;line-height:1.9;color:var(--muted);margin:18px 0}
+.project-item{padding:23px 0;border-bottom:1px solid var(--line)}
+.project-item:last-child{border-bottom:0;padding-bottom:0}
+.project-meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 20px;font-size:10px;color:var(--muted)}
+.project-item h3{font-size:15px;font-weight:600;line-height:1.6;margin:10px 0;color:var(--ink)}
+.project-item>p{font-size:12px;line-height:1.9;color:var(--muted);margin:0 0 12px}
+.project-tags{display:flex;gap:6px;flex-wrap:wrap}
+.project-tags span{font-size:9px;padding:2px 7px;border:1px solid var(--line);border-radius:3px;color:var(--muted)}
+.project-related{display:inline-block;font-size:11px;margin-top:13px}
+.paper-original-title{font-size:11px;line-height:1.8;margin:4px 0 8px;color:var(--ink)}
+.paper-original-title>span{display:block;font-size:10px;color:var(--muted)}
+.subsection-heading{font-size:13px;font-weight:600;margin:25px 0 0;color:var(--ink)}
+.experience-row p.experience-detail{margin-top:5px;font-size:10px;line-height:1.8}
+.honor-list{list-style:none;margin:18px 0 25px;padding:0}
+.honor-list li{display:grid;grid-template-columns:45px minmax(0,1fr);gap:12px;padding:13px 0;border-bottom:1px solid var(--line);font-size:12px;line-height:1.8}
+.honor-list li>span{color:var(--muted);font-size:10px;padding-top:2px}
+.honor-list p{margin:0}
+.skill-list{margin:0;font-size:11px;line-height:1.8}
+.skill-list>div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:18px;padding:8px 0}
+.skill-list dt{font-weight:500;color:var(--ink)}
+.skill-list dd{margin:0;color:var(--muted)}
+@media(max-width:650px){.project-meta{font-size:9px}.project-item h3{font-size:14px}.project-item>p{font-size:12px}.experience-row{flex-wrap:wrap}.experience-row>div{flex:1;min-width:180px}.experience-badge{white-space:normal}.skill-list>div{grid-template-columns:1fr;gap:2px}.honor-list li{font-size:11px}}
