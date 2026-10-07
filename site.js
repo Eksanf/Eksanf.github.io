@@ -2,6 +2,11 @@
   'use strict';
   const translations = {
     en: {
+      nav_about: 'Biography', nav_news: 'Latest news', about_heading: 'Biography', news_heading: 'Latest news',
+      news_rspreg: '<a href="https://neurips.cc/virtual/2026/poster/152998" target="_blank" rel="noopener">RSPReg</a>, our work on reliability-aware point cloud registration, has been accepted at <strong>NeurIPS 2026</strong>.',
+      news_dense: '<a href="https://doi.org/10.1109/tits.2026.3687921" target="_blank" rel="noopener">Dense-Seg</a>, a ground segmentation method for dense point clouds, is published in <strong>IEEE Transactions on Intelligent Transportation Systems</strong>.',
+      news_segcert: '<a href="https://doi.org/10.1002/rob.70347" target="_blank" rel="noopener">SegCert-PCR</a>, our work on certifiable point cloud registration in field environments, is published in <strong>Journal of Field Robotics</strong>.',
+      news_bmvc: 'Our <a href="https://bmva-archive.org.uk/bmvc/2025/assets/workshops/Smart/Paper_4/paper.pdf" target="_blank" rel="noopener">video prediction work</a> appeared at the <strong>BMVC 2025 Smart Camera Workshop</strong>.',
       nav_projects: "Projects",
       background_bio: "I received my Ph.D. in Computer Science and Technology from Xinjiang University in 2024, with joint research training at Tsinghua University. My earlier work explored multilingual information processing and Uyghur document image retrieval.",
       accepted: "Accepted",
@@ -49,10 +54,10 @@
       skills_models_value: "VLA · Transformer / Mamba · Occupancy prediction · Digital twin simulation",
       skills_multilingual: "Earlier multilingual work",
       skills_multilingual_value: "Uyghur–Chinese machine translation · NLP platform integration · Document image retrieval",
-      skip: 'Skip to content', nav_research: 'Research', nav_publications: 'Publications', nav_experience: 'Experience', nav_contact: 'Contact',
-      role: 'Postdoctoral Researcher', affiliation: 'Tsinghua Shenzhen International Graduate School<br>Tsinghua University', email: 'Email', experience_cv: 'Experience & CV',
+      skip: 'Skip to content', nav_research: 'Research', nav_publications: 'Publications', nav_experience: 'CV', nav_contact: 'Contact',
+      role: 'Postdoctoral Researcher<br>Research Associate', affiliation: 'Tsinghua Shenzhen International Graduate School, Tsinghua University<br>Great Bay University', email: 'Email', experience_cv: 'Experience & CV',
       sidebar_note: 'Autonomous driving<br>3D perception<br>Reinforcement learning', eyebrow: 'AUTONOMOUS SYSTEMS & MACHINE INTELLIGENCE', role_line: 'Postdoctoral Researcher · Tsinghua University',
-      bio: 'I am a postdoctoral researcher at <a href="https://www.sigs.tsinghua.edu.cn/en/" target="_blank" rel="noopener">Tsinghua Shenzhen International Graduate School</a>, Tsinghua University. Previously, I worked as a Research Associate at Great Bay University.',
+      bio: 'I am a postdoctoral researcher at <a href="https://www.sigs.tsinghua.edu.cn/en/" target="_blank" rel="noopener">Tsinghua Shenzhen International Graduate School</a>, Tsinghua University, and concurrently serve as a Research Associate at Great Bay University.',
       research_bio: "My research connects <strong>3D perception, robot learning and embodied navigation</strong>. I work on LiDAR segmentation and registration, multimodal occupancy prediction, and vision-language-action models for ground-air robots.",
       explore_work: 'Explore my research', get_in_touch: 'Get in touch', recent: 'RECENT WORK', recent_text: ' — point cloud registration in unstructured field environments.',
       research_heading: 'Research interests', research_intro: 'Perceiving complex environments. Learning to navigate them.',
@@ -63,10 +68,15 @@
       search_label: 'Search titles, authors or venues', search_placeholder: 'Search publications…', topic_all: 'All topics', category_3d: '3D perception', category_vision: 'Computer vision', category_rl: 'Robot learning',
       citations: 'Citations', metrics_date: 'All-time metrics · as of October 6, 2026', preprint: 'Preprint', paper_link: 'Paper', download_citation: 'Download citation', no_results: 'No matching publications. Try another keyword or topic.', download_all: 'Download listed citations',
       illustration_note: 'Thumbnails illustrate research topics; they are not experimental results.', experience_heading: "Experience & education", postdoc: 'Postdoctoral Researcher', postdoc_org: 'Tsinghua Shenzhen International Graduate School, Tsinghua University',
-      current: 'Current', previous: 'Previous', past_org: 'Great Bay University', cv_request: 'Request a full CV by email', contact_eyebrow: 'LET’S CONNECT', contact_heading: 'Research starts with a conversation.',
+      current: 'Current', research_associate: 'Research Associate', associate_org: 'Great Bay University', concurrent: 'Concurrent with postdoc', cv_request: 'Request a full CV by email', contact_eyebrow: 'LET’S CONNECT', contact_heading: 'Contact',
       contact_text: 'For research discussions and academic collaboration, please get in touch.', updated: 'Updated October 2026', back_top: 'Back to top ↑'
     },
     zh: {
+      nav_about: '个人简介', nav_news: '近期动态', about_heading: '个人简介', news_heading: '近期动态',
+      news_rspreg: '可靠性感知点云配准工作 <a href="https://neurips.cc/virtual/2026/poster/152998" target="_blank" rel="noopener">RSPReg</a> 已被 <strong>NeurIPS 2026</strong> 录用。',
+      news_dense: '密集点云地面分割工作 <a href="https://doi.org/10.1109/tits.2026.3687921" target="_blank" rel="noopener">Dense-Seg</a> 发表于 <strong>IEEE Transactions on Intelligent Transportation Systems</strong>。',
+      news_segcert: '野外环境可验证点云配准工作 <a href="https://doi.org/10.1002/rob.70347" target="_blank" rel="noopener">SegCert-PCR</a> 发表于 <strong>Journal of Field Robotics</strong>。',
+      news_bmvc: '<a href="https://bmva-archive.org.uk/bmvc/2025/assets/workshops/Smart/Paper_4/paper.pdf" target="_blank" rel="noopener">视频预测工作</a>发表于 <strong>BMVC 2025 Smart Camera Workshop</strong>。',
       nav_projects: "科研项目",
       background_bio: "我于 2024 年获新疆大学计算机科学与技术博士学位，期间在清华大学联合培养。此前还开展过多语种信息处理与维吾尔文文档图像检索研究。",
       accepted: "已录用",
@@ -115,9 +125,9 @@
       skills_multilingual: "早期多语言研究",
       skills_multilingual_value: "维汉机器翻译 · NLP 平台集成 · 文档图像检索",
       skip: '跳至正文', nav_research: '研究方向', nav_publications: '学术论文', nav_experience: '经历与简历', nav_contact: '联系',
-      role: '博士后研究员', affiliation: '清华大学深圳国际研究生院<br>清华大学', email: '电子邮箱', experience_cv: '经历与简历',
+      role: '博士后研究员 · 助理研究员', affiliation: '清华大学深圳国际研究生院<br>大湾区大学', email: '电子邮箱', experience_cv: '经历与简历',
       sidebar_note: '自动驾驶<br>三维环境感知<br>强化学习', eyebrow: '自主系统与机器智能', role_line: '博士后研究员 · 清华大学',
-      bio: '我在<a href="https://www.sigs.tsinghua.edu.cn/" target="_blank" rel="noopener">清华大学深圳国际研究生院</a>开展博士后研究，曾在大湾区大学担任 Research Associate。',
+      bio: '我在<a href="https://www.sigs.tsinghua.edu.cn/" target="_blank" rel="noopener">清华大学深圳国际研究生院</a>开展博士后研究，同时在大湾区大学担任助理研究员。',
       research_bio: "我的研究连接<strong>三维环境感知、机器人学习与具身导航</strong>，涵盖 LiDAR 分割与配准、多模态三维占用预测，以及面向陆空机器人的视觉—语言—动作（VLA）模型。",
       explore_work: '查看研究成果', get_in_touch: '联系我', recent: '近期成果', recent_text: ' — 非结构化野外环境中的点云配准。',
       research_heading: '研究方向', research_intro: '理解复杂环境，学习自主移动。',
@@ -128,7 +138,7 @@
       search_label: '搜索标题、作者或期刊', search_placeholder: '搜索论文、作者或期刊…', topic_all: '全部主题', category_3d: '三维感知', category_vision: '计算机视觉', category_rl: '机器人学习',
       citations: '总引用', metrics_date: '累计指标 · 查询于 2026 年 10 月 6 日', preprint: '预印本', paper_link: '论文', download_citation: '下载引用', no_results: '没有匹配的论文，请尝试其他关键词或研究主题。', download_all: '下载已列论文引用',
       illustration_note: '缩略图为研究主题示意，不代表实验结果。', experience_heading: "科研经历与教育背景", postdoc: '博士后研究员', postdoc_org: '清华大学深圳国际研究生院 · 清华大学',
-      current: '当前', previous: '曾任', past_org: '大湾区大学', cv_request: '通过邮件获取完整简历', contact_eyebrow: '学术交流', contact_heading: '从一次交流，开启新的研究。',
+      current: '当前', research_associate: '助理研究员', associate_org: '大湾区大学', concurrent: '与博士后同期', cv_request: '通过邮件获取完整简历', contact_eyebrow: '学术交流', contact_heading: '联系方式',
       contact_text: '欢迎就相关研究与学术合作联系我。', updated: '更新于 2026 年 10 月', back_top: '返回顶部 ↑'
     }
   };
