@@ -69,7 +69,7 @@
       citations: 'Citations', metrics_date: 'All-time metrics · as of October 6, 2026', preprint: 'Preprint', paper_link: 'Paper', download_citation: 'Download citation', no_results: 'No matching publications. Try another keyword or topic.', download_all: 'Download listed citations',
       illustration_note: 'Thumbnails illustrate research topics; they are not experimental results.', experience_heading: "Experience & education", postdoc: 'Postdoctoral Researcher', postdoc_org: 'Tsinghua Shenzhen International Graduate School, Tsinghua University',
       current: 'Current', research_associate: 'Research Associate', associate_org: 'Great Bay University', concurrent: 'Concurrent with postdoc', cv_request: 'Request a full CV by email', contact_eyebrow: 'LET’S CONNECT', contact_heading: 'Contact',
-      contact_text: 'For research discussions and academic collaboration, please get in touch.', updated: 'Updated October 2026', back_top: 'Back to top ↑'
+      contact_text: 'For research discussions and academic collaboration, please get in touch.', updated: 'Updated November 2026', back_top: 'Back to top ↑'
     },
     zh: {
       nav_about: '个人简介', nav_news: '近期动态', about_heading: '个人简介', news_heading: '近期动态',
@@ -139,7 +139,7 @@
       citations: '总引用', metrics_date: '累计指标 · 查询于 2026 年 10 月 6 日', preprint: '预印本', paper_link: '论文', download_citation: '下载引用', no_results: '没有匹配的论文，请尝试其他关键词或研究主题。', download_all: '下载已列论文引用',
       illustration_note: '缩略图为研究主题示意，不代表实验结果。', experience_heading: "科研经历与教育背景", postdoc: '博士后研究员', postdoc_org: '清华大学深圳国际研究生院 · 清华大学',
       current: '当前', research_associate: '助理研究员', associate_org: '大湾区大学', concurrent: '与博士后同期', cv_request: '通过邮件获取完整简历', contact_eyebrow: '学术交流', contact_heading: '联系方式',
-      contact_text: '欢迎就相关研究与学术合作联系我。', updated: '更新于 2026 年 10 月', back_top: '返回顶部 ↑'
+      contact_text: '欢迎就相关研究与学术合作联系我。', updated: '更新于 2026 年 11 月', back_top: '返回顶部 ↑'
     }
   };
   const papers = [...document.querySelectorAll('.paper')];
